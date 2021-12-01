@@ -1,0 +1,24 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "belajar rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fajriawansu/apprestapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "fajriawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fajriawansu/apprestapi/issues"
+  },
+  "homepage": "https://github.com/fajriawansu/apprestapi#readme"
+}
