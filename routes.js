@@ -13,5 +13,11 @@ module.exports = function(app) {
         .get(myjson.seeAllMahasiswaById);
 
     app.route('/add')
-        .post(myjson.addMahasiswa)
+        .post(myjson.addMahasiswa);
+
+    app.route('/edit')
+        .put(myjson.editMahasiswaById);
+
+    app.route('/delete/:id')
+        .delete(myjson.deleteMahasiswaById);
 }
