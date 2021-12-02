@@ -11,4 +11,7 @@ module.exports = function(app) {
 
     app.route('/see/:id')
         .get(myjson.seeAllMahasiswaById);
+
+    app.route('/add')
+        .post(myjson.addMahasiswa)
 }
