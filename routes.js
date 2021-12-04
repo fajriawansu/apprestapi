@@ -20,4 +20,7 @@ module.exports = function(app) {
 
     app.route('/delete/:id')
         .delete(myjson.deleteMahasiswaById);
+    
+    app.route('/get-group-matakuliah')
+        .get(myjson.getGroupMatakuliah);
 }
